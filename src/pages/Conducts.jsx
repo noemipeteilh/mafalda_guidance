@@ -1,0 +1,52 @@
+import React from "react";
+import LogoMafalda from "../assets/images/Logo.png";
+import Rabieta from "../assets/images/Rabieta.png";
+import Button from "../components/Button.jsx";
+import { Body, Title, Logo, ButtonGroup, Img } from "../styled/styled-conducts.jsx";
+
+
+const Conducts = () => {
+    return (
+    <>
+    <Body>
+    <Logo src={LogoMafalda} alt="Logo"></Logo>
+    <Title>¿QUÉ TE PREOCUPA? </Title>
+    <ButtonGroup>
+    <Button
+            to="/advice"
+            nameButton="Sueño/Pesadillas"
+            backgroundColor="#FFFF"
+            textColor="#Ff914d"
+    />
+    <Button
+            to="/advice"
+            nameButton="Rabietas"
+            backgroundColor="#FFFF"
+            textColor="#Ff914d"
+    />
+    <Button
+            to="/advice"
+            nameButton="Control de Micción"
+            backgroundColor="#FFFF"
+            textColor="#Ff914d"
+    />
+    <Button
+            to="/advice"
+            nameButton="Miedos"
+            backgroundColor="#FFFF"
+            textColor="#Ff914d"
+    />
+    <Button
+            to="/advice"
+            nameButton="Hiperactividad"
+            backgroundColor="#FFFF"
+            textColor="#Ff914d"
+    />
+    </ButtonGroup>
+    <Img src={Rabieta} alt="Img"></Img>
+    </Body>
+    </>
+    );
+    };
+    
+    export default Conducts;

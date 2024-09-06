@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../components/Button.jsx";
 import Since from "../assets/images/Since_1.png";
-import { Body, Name, Title, Title1,  Img } from "../styled/styled-home.jsx";
+import { Body, Name, Title, Title1, Img } from "../styled/styled-home.jsx";
 
 const Home = () => {
 return (

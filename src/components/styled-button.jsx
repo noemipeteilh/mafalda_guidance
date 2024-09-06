@@ -12,7 +12,7 @@ color: ${({ textColor }) => textColor || '#fff'};
 font-size: 24px !important;
 font-weigth:700;
 border: none;
-border-radius: 56px;
+border-radius: 50;
 padding: 24px 24px;
 width: 100%;
 max-width: 350px;
@@ -25,5 +25,13 @@ font-family: "Inter", sans-serif !important;
 margin-bottom: 100px;
 gap:10px;
 
+img {
+margin-right: ${(props) => (props.hasIcon ? '10px' : '0')};
+width: 20px;
+height: 20px;
+}
 `;
+
+
+
 

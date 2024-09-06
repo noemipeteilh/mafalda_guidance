@@ -7,6 +7,7 @@ import { Body, Title, Title1, Title2, Logo, Img } from "../styled/styled-paramet
 
 const Parameters = () => {
 return (
+    <>
 <Body>
 <Logo src={LogoMafalda} alt="Logo"></Logo>
 <Title>¿TIENES </Title>
@@ -19,6 +20,7 @@ return (
     </Link>
 <Title2>UNA NIÑA?</Title2>
 </Body>
+</>
 );
 };
 

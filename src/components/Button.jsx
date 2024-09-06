@@ -4,6 +4,7 @@ import { But } from "./styled-button";
 
 const Button = ({ to, icon, backgroundColor, textColor, nameButton }) => {
   return (
+    <>
     <But
       to={to}
       backgroundColor={backgroundColor}
@@ -13,6 +14,7 @@ const Button = ({ to, icon, backgroundColor, textColor, nameButton }) => {
       {icon && <img src={icon} alt="icon" />}
       {nameButton}
     </But>
+    </>
   );
 };
 

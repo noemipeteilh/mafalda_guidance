@@ -3,6 +3,10 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layout/Layout";
 import Home from "../pages/Home";
 import Parameters from "../pages/Parameters";
+import Filter from "../pages/Filter";
+
+
+
 
 export const router = createBrowserRouter([
 {
@@ -17,6 +21,11 @@ export const router = createBrowserRouter([
         path: "/parameters", 
         element: <Parameters />,
 },
+    {
+        path: "/filter",
+        element: <Filter />,
+
+    },
     ],
 },
 ]);

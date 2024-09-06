@@ -39,15 +39,15 @@ text-transform: uppercase;
 export const Title = styled.p`
 font-size: 30px;
 font-family: 'Staatliches', sans-serif;
-margin-top: 10px; /* Reducir espacio superior */
+margin-top: 10px; 
 margin-bottom: 20px;
 `;
 
 export const Title1 = styled.p`
 font-size: 30px;
-  margin-top: 10px; /* Reducir margen superior */
+  margin-top: 10px; 
 font-family: 'Staatliches', sans-serif;
-  margin-bottom: 20px; /* Reducir margen inferior */
+  margin-bottom: 20px; 
 `;
 
 

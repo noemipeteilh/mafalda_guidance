@@ -6,47 +6,47 @@ import { Body, Title, Logo, ButtonGroup, Img } from "../styled/styled-conducts.j
 
 
 const Conducts = () => {
-    return (
-    <>
-    <Body>
-    <Logo src={LogoMafalda} alt="Logo"></Logo>
-    <Title>¿QUÉ TE PREOCUPA? </Title>
-    <ButtonGroup>
-    <Button
-            to="/advice"
-            nameButton="Sueño/Pesadillas"
-            backgroundColor="#FFFF"
-            textColor="#Ff914d"
-    />
-    <Button
-            to="/advice"
-            nameButton="Rabietas"
-            backgroundColor="#FFFF"
-            textColor="#Ff914d"
-    />
-    <Button
-            to="/advice"
-            nameButton="Control de Micción"
-            backgroundColor="#FFFF"
-            textColor="#Ff914d"
-    />
-    <Button
-            to="/advice"
-            nameButton="Miedos"
-            backgroundColor="#FFFF"
-            textColor="#Ff914d"
-    />
-    <Button
-            to="/advice"
-            nameButton="Hiperactividad"
-            backgroundColor="#FFFF"
-            textColor="#Ff914d"
-    />
-    </ButtonGroup>
-    <Img src={Rabieta} alt="Img"></Img>
-    </Body>
-    </>
-    );
-    };
-    
-    export default Conducts;
+return (
+<>
+<Body>
+<Logo src={LogoMafalda} alt="Logo"></Logo>
+<Title>¿QUÉ TE PREOCUPA? </Title>
+<ButtonGroup>
+<Button
+        to="/orientation"
+        nameButton="Sueño/Pesadillas"
+        backgroundColor="#FFFF"
+        textColor="#Ff914d"
+/>
+<Button
+        to="/orientation"
+        nameButton="Rabietas"
+        backgroundColor="#FFFF"
+        textColor="#Ff914d"
+/>
+<Button
+        to="/orientation"
+        nameButton="Control de Micción"
+        backgroundColor="#FFFF"
+        textColor="#Ff914d"
+/>
+<Button
+        to="/orientation"
+        nameButton="Miedos"
+        backgroundColor="#FFFF"
+        textColor="#Ff914d"
+/>
+<Button
+        to="/orientation"
+        nameButton="Hiperactividad"
+        backgroundColor="#FFFF"
+        textColor="#Ff914d"
+/>
+</ButtonGroup>
+<Img src={Rabieta} alt="Img"></Img>
+</Body>
+</>
+);
+};
+
+export default Conducts;

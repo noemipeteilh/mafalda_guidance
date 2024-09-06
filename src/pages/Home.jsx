@@ -5,6 +5,7 @@ import { Body, Name, Title, Title1, Img } from "../styled/styled-home.jsx";
 
 const Home = () => {
 return (
+        <>
 <Body>
 <Img src={Since} alt="Since"></Img>
 <Name>MAFALDA</Name>
@@ -17,6 +18,7 @@ return (
         textColor="#Ff914d"
 />
 </Body>
+</>
 );
 };
 

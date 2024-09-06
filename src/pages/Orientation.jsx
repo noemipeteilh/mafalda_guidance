@@ -11,7 +11,7 @@ return (
 <Logo src={LogoMafalda} alt="Logo"></Logo>
 <ButtonGroup>
 <Button
-        to="/advice"
+        to="/advices"
         nameButton="Presiona aquí"
         backgroundColor="#FFFF"
         textColor="#Ff914d"

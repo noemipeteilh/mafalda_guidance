@@ -4,6 +4,7 @@ import Layout from "../layout/Layout";
 import Home from "../pages/Home";
 import Parameters from "../pages/Parameters";
 import Filter from "../pages/Filter";
+import Conducts from "../pages/Conducts";
 
 
 
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
         element: <Filter />,
 
     },
+    {
+        path: "/conducts",
+        element: <Conducts />,
+    }
     ],
 },
 ]);

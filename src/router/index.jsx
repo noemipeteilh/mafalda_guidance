@@ -6,6 +6,7 @@ import Parameters from "../pages/Parameters";
 import Filter from "../pages/Filter";
 import Conducts from "../pages/Conducts";
 import Orientation from "../pages/Orientation";
+import Advices from "../pages/Advices";
 
 
 
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
     {
         path: "/orientation",
         element: <Orientation />,
+    },
+    {
+        path: "/advices",
+        element: <Advices />,
     }
     ],
 },

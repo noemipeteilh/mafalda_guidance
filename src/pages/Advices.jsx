@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { useFilter } from "../context/FilterContext";
+import BackImage from "../assets/images/icons8-izquierda-en-círculo-2-100.png";
 import LogoMafalda from "../assets/images/Logo.png";
 import Notes from "../assets/images/Notes.png";
 import Gialla from "../assets/images/Gialla.png";
-import { Body, Logo, NotesImg, GiallaImg } from "../styled/styled-advices.jsx";
+import { Back, Body, Logo, NotesImg, GiallaImg } from "../styled/styled-advices.jsx";
 import { data } from "../data/data.js";
 
 const Advices = () => {
@@ -26,6 +28,9 @@ useEffect(() => {
 
 return (
     <Body>
+    <Link to="/">
+<Back src={BackImage} alt="Back" />
+</Link>
     <Logo src={LogoMafalda} alt="Logo" />
     <div style={{ position: 'relative' }}>
         <NotesImg src={Notes} alt="Notes" />

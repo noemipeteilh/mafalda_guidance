@@ -1,4 +1,5 @@
 import React from "react";
+import { useFilter } from "../context/FilterContext"; // Importa el contexto
 import LogoMafalda from "../assets/images/Logo.png";
 import Rabieta from "../assets/images/Rabieta.png";
 import Button from "../components/Button.jsx";
@@ -6,6 +7,7 @@ import { Body, Title, Logo, ButtonGroup, Img } from "../styled/styled-conducts.j
 
 
 const Conducts = () => {
+const { setConducta } = useFilter(); // Usa el contexto para actualizar la conducta
 return (
 <>
 <Body>

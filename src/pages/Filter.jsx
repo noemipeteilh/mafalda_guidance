@@ -1,4 +1,5 @@
 import React from "react";
+import { useFilter } from "../context/FilterContext"; // Importa el contexto
 import LogoMafalda from "../assets/images/Logo.png";
 import MafaldaTesta from "../assets/images/MafaldaTesta.png";
 import Button from "../components/Button.jsx";

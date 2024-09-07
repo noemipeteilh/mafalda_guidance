@@ -13,7 +13,7 @@ return (
 <Title1>SALUD MENTAL INFANTIL</Title1>
 <Button
         to="/parameters"
-        nameButton="Comenzar"
+        nameButton="COMENZAR"
         backgroundColor="#FFFF"
         textColor="#Ff914d"
 />

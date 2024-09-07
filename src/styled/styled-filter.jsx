@@ -18,6 +18,14 @@ margin:0;
 }
 `;
 
+export const Back = styled.img`
+width: 60px;
+height: auto;
+position: fixed;
+top: 10px;
+left: 20px;
+`;
+
 export const Logo = styled.img`
 width: 60px;
 height: auto;

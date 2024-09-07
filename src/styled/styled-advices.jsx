@@ -44,3 +44,11 @@ export const Img = styled.img`
 width: 80px;
 height: auto;
 `;
+
+export const Back = styled.img`
+width: 60px;
+height: auto;
+position: fixed;
+top: 10px;
+left: 20px;
+`;

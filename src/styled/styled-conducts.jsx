@@ -56,3 +56,11 @@ bottom: 0;
 right: 130px;  
 
 `;
+
+export const Back = styled.img`
+width: 60px;
+height: auto;
+position: fixed;
+top: 10px;
+left: 20px;
+`;

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useFilter } from "../context/FilterContext.jsx"; // Importa el contexto
 import LogoMafalda from "../assets/images/Logo.png";
 import Felipe from "../assets/images/Felipe.png";
 import Susanita from "../assets/images/Susanita.png";

@@ -22,25 +22,29 @@ return (
         to="/conducts"
         nameButton="Menos de 3"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 <Button
         to="/conducts"
         nameButton="3-6"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 <Button
         to="/conducts"
         nameButton="7-9"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 <Button
         to="/conducts"
         nameButton="10-12"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 </ButtonGroup>
 <Img src={MafaldaTesta} alt="Img"></Img>

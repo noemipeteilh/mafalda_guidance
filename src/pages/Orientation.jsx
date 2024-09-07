@@ -15,7 +15,8 @@ return (
         to="/advices"
         nameButton="Presiona aquí"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 </ButtonGroup>
 </Body>

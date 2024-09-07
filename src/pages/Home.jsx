@@ -15,7 +15,8 @@ return (
         to="/parameters"
         nameButton="COMENZAR"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#fc7900"
+        isBold={true}
 />
 </Body>
 </>

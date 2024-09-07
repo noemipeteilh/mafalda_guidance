@@ -23,31 +23,36 @@ return (
         to="/orientation"
         nameButton="Sueño/Pesadillas"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 <Button
         to="/orientation"
         nameButton="Rabietas"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 <Button
         to="/orientation"
         nameButton="Control de Micción"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 <Button
         to="/orientation"
         nameButton="Miedos"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 <Button
         to="/orientation"
         nameButton="Hiperactividad"
         backgroundColor="#FFFF"
-        textColor="#Ff914d"
+        textColor="#Fc7900"
+        isBold={true}
 />
 </ButtonGroup>
 <Img src={Rabieta} alt="Img"></Img>

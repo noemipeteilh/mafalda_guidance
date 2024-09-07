@@ -46,9 +46,9 @@ height: auto;
 `;
 
 export const Back = styled.img`
-width: 60px;
+width: 80px;
 height: auto;
 position: fixed;
-top: 10px;
-left: 20px;
+top: 0;
+left: 5px;
 `;

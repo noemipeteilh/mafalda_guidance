@@ -16,6 +16,7 @@ return (
         nameButton="Comenzar"
         backgroundColor="#FFFF"
         textColor="#Ff914d"
+        isBold={true} 
 />
 </Body>
 </>

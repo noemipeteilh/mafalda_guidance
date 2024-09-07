@@ -2,7 +2,7 @@ import React from "react";
 import { But } from "./styled-button";
 
 
-const Button = ({ to, icon, backgroundColor, textColor, nameButton }) => {
+const Button = ({ to, icon, backgroundColor, textColor, nameButton, isBold }) => {
   return (
     <>
     <But
@@ -10,6 +10,7 @@ const Button = ({ to, icon, backgroundColor, textColor, nameButton }) => {
       backgroundColor={backgroundColor}
       textColor={textColor}
       hasIcon={!!icon}
+      isBold={isBold}
     >
       {icon && <img src={icon} alt="icon" />}
       {nameButton}

@@ -16,6 +16,7 @@ return (
         nameButton="Presiona aquí"
         backgroundColor="#FFFF"
         textColor="#Ff914d"
+        isBold={true} 
 />
 </ButtonGroup>
 </Body>

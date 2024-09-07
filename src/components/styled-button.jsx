@@ -10,7 +10,7 @@ justify-content: center;
 background-color: ${({ backgroundColor }) => backgroundColor || '#Ff914d'}; 
 color: ${({ textColor }) => textColor || '#fff'}; 
 font-size: 24px !important;
-font-weigth:700;
+font-weight: ${({ isBold }) => (isBold ? "bold" : "normal")};
 border: none;
 border-radius: 56px;
 padding: 24px 24px;

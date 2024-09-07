@@ -10,7 +10,7 @@ const Button = ({ to, icon, backgroundColor, textColor, nameButton, isBold }) =>
       backgroundColor={backgroundColor}
       textColor={textColor}
       hasIcon={!!icon}
-      isBold={isBold}
+      isBold={isBold} 
     >
       {icon && <img src={icon} alt="icon" />}
       {nameButton}

@@ -9,24 +9,44 @@ import { Back, Body, Logo, NotesImg, GiallaImg } from "../styled/styled-advices.
 import { data } from "../data/data.js";
 
 const Advices = () => {
-const [consejo, setConsejo] = useState('');
+const [consejo, setConsejo] = useState('No hay consejos disponibles para los filtros seleccionados.');
 const { genero, edad, conducta } = useFilter();
 
 useEffect(() => {
-    const resultado = data.filter(persona =>
-    persona.Genre === genero &&
-    persona.age === edad &&
-    persona.behavior === conducta
+    console.log(`Género: ${genero}`); // Para verificar el valor
+    console.log(`Edad: ${edad}`); // Para verificar el valor
+    console.log(`Conducta: ${conducta}`); // Para verificar el valor
+
+    // Filtra los datos basados en los filtros seleccionados
+        const resultado = data.filter(persona =>
+            (!genero || persona.genero === genero) &&
+            (!edad || persona.edad === edad) &&
+            (!conducta || persona.conducta === conducta)
+        );
+
+        if (resultado.length > 0) {
+            setConsejo(resultado[0].consejo);
+        } else {
+            setConsejo('No hay consejos disponibles para los filtros seleccionados.');
+        }
+    }, [genero, edad, conducta]);
+
+
+    /*const resultado = data.filter(persona =>
+    persona.genero === genero &&
+    persona.edad === edad &&
+    persona.conducta === conducta
     );
 
     if (resultado.length > 0) {
-    setConsejo(resultado[0].advice);
+    setConsejo(resultado[0].consejo);
     } else {
     setConsejo('No hay consejos disponibles para los filtros seleccionados.');
     }
-}, [genero, edad, conducta]);
+}, [genero, edad, conducta]);*/
 
 return (
+
     <Body>
     <Link to="/">
 <Back src={BackImage} alt="Back" />

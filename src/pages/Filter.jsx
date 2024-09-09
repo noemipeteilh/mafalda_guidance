@@ -9,6 +9,12 @@ import { Back, Body, Title, Logo, ButtonGroup, Img } from "../styled/styled-filt
 
 
 const Filter = () => {
+const { updateEdad } = useFilter(); // Obtén la función para actualizar el género
+
+const handleEdadChange = (newEdad) => {
+updateEdad(newEdad); // Actualiza el género en el contexto
+};
+
 return (
 <>
 <Body>
@@ -24,6 +30,7 @@ return (
         backgroundColor="#FFFF"
         textColor="#Fc7900"
         isBold={true}
+        onClick={() => handleEdadChange("Menos de 3")}
 />
 <Button
         to="/conducts"
@@ -31,6 +38,7 @@ return (
         backgroundColor="#FFFF"
         textColor="#Fc7900"
         isBold={true}
+        onClick={() => handleEdadChange("3-6")}
 />
 <Button
         to="/conducts"
@@ -38,6 +46,7 @@ return (
         backgroundColor="#FFFF"
         textColor="#Fc7900"
         isBold={true}
+        onClick={() => handleEdadChange("7-9")} 
 />
 <Button
         to="/conducts"
@@ -45,6 +54,7 @@ return (
         backgroundColor="#FFFF"
         textColor="#Fc7900"
         isBold={true}
+        onClick={() => handleEdadChange("10-12")} 
 />
 </ButtonGroup>
 <Img src={MafaldaTesta} alt="Img"></Img>

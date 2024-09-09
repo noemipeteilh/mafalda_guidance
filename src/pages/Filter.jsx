@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useFilter } from "../context/FilterContext"; // Importa el contexto
+import { useFilter } from "../context/FilterContext"; 
 import LogoMafalda from "../assets/images/Logo.png";
 import MafaldaTesta from "../assets/images/MafaldaTesta.png";
 import BackImage from "../assets/images/icons8-izquierda-en-círculo-2-100.png";
@@ -9,10 +9,10 @@ import { Back, Body, Title, Logo, ButtonGroup, Img } from "../styled/styled-filt
 
 
 const Filter = () => {
-const { updateEdad } = useFilter(); // Obtén la función para actualizar el género
+const { updateEdad } = useFilter(); 
 
 const handleEdadChange = (newEdad) => {
-updateEdad(newEdad); // Actualiza el género en el contexto
+updateEdad(newEdad); 
 };
 
 return (

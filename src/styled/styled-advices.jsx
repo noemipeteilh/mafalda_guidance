@@ -52,3 +52,18 @@ position: fixed;
 top: 10px;
 left: 20px;
 `;
+
+
+export const AdvicesContainer = styled.div`
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: Grey;
+padding: 10px;
+border-radius: 5px;
+text-align: center;
+font-size: 1.5rem; 
+background-color: transparent; 
+white-space: pre-wrap;
+`;

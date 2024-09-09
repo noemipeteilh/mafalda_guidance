@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useFilter } from "../context/FilterContext"; // Importa el contexto
+import { useFilter } from "../context/FilterContext"; 
 import BackImage from "../assets/images/icons8-izquierda-en-círculo-2-100.png";
 import LogoMafalda from "../assets/images/Logo.png";
 import Rabieta from "../assets/images/Rabieta.png";
@@ -9,9 +9,9 @@ import { Back, Body, Title, Logo, ButtonGroup, Img } from "../styled/styled-cond
 
 
 const Conducts = () => {
-const { updateConducta } = useFilter(); // Usa el contexto para actualizar la conducta
+const { updateConducta } = useFilter(); 
 const handleConductaChange = (newConducta) => {
-  updateConducta(newConducta); // Actualiza el género en el contexto
+  updateConducta(newConducta);
 };
 
 return (

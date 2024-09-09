@@ -33,6 +33,12 @@ export const data = [
   {
     genero: "Niño",
     edad: 12,
+    conducta: "sueño/pesadillas",
+    consejo: "Se recomienda acudir a un profesional de la salud mental"
+  },
+  {
+    genero: "Niño",
+    edad: 12,
     conducta: "Hiperactividad",
     consejo: "Consulte con un profesional."
   },
@@ -58,6 +64,12 @@ export const data = [
     genero: "Niño",
     edad: 11,
     conducta: "miedos",
+    consejo: "Se recomienda acudir a un profesional de la salud mental"
+  },
+  {
+    genero: "Niño",
+    edad: 7,
+    conducta: "Hiperactividad",
     consejo: "Se recomienda acudir a un profesional de la salud mental"
   },
   {

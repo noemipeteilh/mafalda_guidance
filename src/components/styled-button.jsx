@@ -26,6 +26,10 @@ margin-bottom: 100px;
 margin: 0;
 gap:0;
 
+&:hover {
+    background-color: ${props => props.hoverBackgroundColor || '#A6A6A6A6'};
+ 
+
 img {
 margin-right: ${(props) => (props.hasIcon ? '10px' : '0')};
 width: 20px;

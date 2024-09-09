@@ -10,7 +10,7 @@ export const data = [
     genero: "Niño",
     edad: 8,
     conducta: "miedos",
-    consejo: "En esta etapa son esperables,si persisten luego de algunos meses consulte con un profesional."
+    consejo: "En esta etapa son esperables,en forma eventual, pero si si persisten luego de algunos meses, o aumentan en intensidad y/o frecuencia, consulte con un profesional."
   },
   {
     genero: "Niña",
@@ -22,7 +22,7 @@ export const data = [
     genero: "Niño",
     edad: 2,
     conducta: "Rabietas",
-    consejo: "Son esperables a esta edad.Refuerce la implementacion de limites acorde a la edad cronologica"
+    consejo: "Son esperables a esta edad. Se sugiere reforzar  la implementacion de limites acorde a su edad cronologica. Si persisten al llegar a los 3 años y /o se intensifican, consulte con un ptrofesional."
   },
   {
     genero: "Niña",

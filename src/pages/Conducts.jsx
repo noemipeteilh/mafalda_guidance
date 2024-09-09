@@ -9,7 +9,11 @@ import { Back, Body, Title, Logo, ButtonGroup, Img } from "../styled/styled-cond
 
 
 const Conducts = () => {
-const { setConducta } = useFilter(); // Usa el contexto para actualizar la conducta
+const { updateConducta } = useFilter(); // Usa el contexto para actualizar la conducta
+const handleConductaChange = (newConducta) => {
+  updateConducta(newConducta); // Actualiza el género en el contexto
+};
+
 return (
 <>
 <Body>
@@ -25,6 +29,7 @@ return (
         backgroundColor="#FFFF"
         textColor="#Fc7900"
         isBold={true}
+        onClick={() => handleConductaChange("Sueño/Pesadillas")}
 />
 <Button
         to="/orientation"
@@ -32,6 +37,7 @@ return (
         backgroundColor="#FFFF"
         textColor="#Fc7900"
         isBold={true}
+        onClick={() => handleConductaChange("Rabietas")}
 />
 <Button
         to="/orientation"
@@ -39,6 +45,7 @@ return (
         backgroundColor="#FFFF"
         textColor="#Fc7900"
         isBold={true}
+        onClick={() => handleConductaChange("Control de Micción")}
 />
 <Button
         to="/orientation"
@@ -46,6 +53,7 @@ return (
         backgroundColor="#FFFF"
         textColor="#Fc7900"
         isBold={true}
+        onClick={() => handleConductaChange("Miedos")} 
 />
 <Button
         to="/orientation"
@@ -53,6 +61,7 @@ return (
         backgroundColor="#FFFF"
         textColor="#Fc7900"
         isBold={true}
+        onClick={() => handleConductaChange("Hiperactividad")} 
 />
 </ButtonGroup>
 <Img src={Rabieta} alt="Img"></Img>

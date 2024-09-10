@@ -8,10 +8,10 @@ import { Body, Title, Title1, Title2, Logo, Img } from "../styled/styled-paramet
 
 
 const Parameters = () => {
-    const { updateGenero } = useFilter(); // Obtén la función para actualizar el género
+    const { updateGenero } = useFilter(); 
 
     const handleGeneroChange = (newGenero) => {
-      updateGenero(newGenero); // Actualiza el género en el contexto
+    updateGenero(newGenero); 
     };
 
 return (

@@ -20,5 +20,4 @@ export const FilterProvider = ({ children }) => {
   );
 };
 
-// Hook personalizado para acceder al contexto
 export const useFilter = () => useContext(FilterContext);

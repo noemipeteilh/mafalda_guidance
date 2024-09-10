@@ -11,7 +11,7 @@ import { Back, Body, Title, Logo, ButtonGroup, Img } from "../styled/styled-cond
 const Conducts = () => {
 const { updateConducta } = useFilter(); 
 const handleConductaChange = (newConducta) => {
-  updateConducta(newConducta);
+updateConducta(newConducta);
 };
 
 return (

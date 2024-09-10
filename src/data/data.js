@@ -10,7 +10,7 @@ export const data = [
     genero: "Niño",
     edad: 8,
     conducta: "miedos",
-    consejo: "En esta etapa son esperables,en forma eventual, pero si si persisten luego de algunos meses, o aumentan en intensidad y/o frecuencia, consulte con un profesional."
+    consejo: "En esta etapa suelen aparecer esporádicamente, pero  si persisten luego de algunos meses, o aumentan en intensidad y/o frecuencia, consulte con un profesional."
   },
   {
     genero: "Niña",
@@ -89,6 +89,30 @@ export const data = [
     edad: 9,
     conducta: "Rabietas",
     consejo: "No son esperables a esta edad, debe realizar una consulta con un profesional."
+  },
+  {
+    genero: "Niño",
+    edad: 2,
+    conducta: "Miedos",
+    consejo: "Son esperables a esta edad, si son demasiado intensos y /o le cuesta controlarlos debe realizar una consulta con un profesional."
+  },
+  {
+    genero: "Niña",
+    edad: 4,
+    conducta: "Hiperactividad",
+    consejo: "Es esperable que sean inquietos cuando son tan pequeños, pero si no logra dormir de manera adecuada luego de dias tan intensos, consulte"
+  },
+  {
+    genero: "Niño",
+    edad: 3,
+    conducta: "Control de Micción",
+    consejo: "Si no lo ha logrado, y observa que no logra avances, consulte con un profesional."
+  },
+  {
+    genero: "Niña",
+    edad: 8,
+    condcuta: "sueño/pesadillas",
+    consejo: "Si son frecuentes, alterando su funcionamiento cotidiano, consulte con un profesional"
   }
 ];
 
